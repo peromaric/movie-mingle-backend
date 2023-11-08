@@ -1,13 +1,13 @@
-package com.challenge.movieminglebackend;
+package com.challenge.movie.mingle;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MovieMingleBackendApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(MovieMingleBackendApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
 }
