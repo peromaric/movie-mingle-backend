@@ -14,7 +14,6 @@ import org.springframework.data.relational.core.mapping.Table;
 @Setter
 @Table("movies.movie")
 public class Movie {
-
   @Id
   private long movieId;
   @Column
@@ -41,5 +40,4 @@ public class Movie {
   private String voteAverage;
   @Column
   private long voteCount;
-
 }
